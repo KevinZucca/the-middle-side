@@ -1,0 +1,1024 @@
+[
+    {
+        "id": 1,
+        "apiName": "Google Maps API",
+        "Domain": "maps.google.com",
+        "endpoints": [
+            "/roads",
+            "/streets",
+            "/cities",
+            "/coordinates",
+            "/shops",
+            "/updates"
+        ],
+        "queries": [
+            {
+                "name": "Find nearby restaurants",
+                "url": "?query=nearby+restaurants"
+            },
+            {
+                "name": "Get traffic information",
+                "url": "?query=traffic+information"
+            },
+            {
+                "name": "Search for routes",
+                "url": "?query=search+routes"
+            }
+        ],
+        "params": [
+            {
+                "name": "ID",
+                "value": "/143"
+            },
+            {
+                "name": "ID",
+                "value": "/158"
+            },
+            {
+                "name": "ID",
+                "value": "/190"
+            },
+            {
+                "name": "Region",
+                "value": "/us"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.a99586d2d64275181f8b2d10b2023237?rik=R7enYDg60p%2be8Q&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 2,
+        "apiName": "Bank API",
+        "Domain": "mybank.com",
+        "endpoints": [
+            "/payments",
+            "/credit_cards",
+            "/account",
+            "/PIN",
+            "/assistance",
+            "/transaction_history",
+            "/balance"
+        ],
+        "queries": [
+            {
+                "name": "Get account balance",
+                "url": "?action=get_balance"
+            },
+            {
+                "name": "Make a payment",
+                "url": "?action=make_payment"
+            }
+        ],
+        "params": [
+            {
+                "name": "Transaction ID",
+                "value": "/90000"
+            },
+            {
+                "name": "Transaction ID",
+                "value": "/16552"
+            },
+            {
+                "name": "Transaction ID",
+                "value": "/83036"
+            },
+            {
+                "name": "Balance",
+                "value": "/balance"
+            },
+            {
+                "name": "Payment Date",
+                "value": "/payment_date"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.c8b512333f5e10d327120e20d3a0541f?rik=eRThGAb%2bMKPw8w&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 3,
+        "apiName": "Apple API",
+        "Domain": "www.apple.com",
+        "endpoints": [
+            "/homepage",
+            "/devices",
+            "/headsets",
+            "/accessories",
+            "/shop",
+            "/news"
+        ],
+        "queries": [
+            {
+                "name": "View iPhone models",
+                "url": "?category=iphone"
+            },
+            {
+                "name": "Explore MacBook options",
+                "url": "?category=macbook"
+            },
+            {
+                "name": "Check availability of AirPods",
+                "url": "?category=airpods"
+            }
+        ],
+        "params": [
+            {
+                "name": "Product ID",
+                "value": "/18"
+            },
+            {
+                "name": "Product ID",
+                "value": "/19"
+            },
+            {
+                "name": "Device Type",
+                "value": "/device_type"
+            },
+            {
+                "name": "Availability",
+                "value": "/availability"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.n3q8I2opS3wxI0tseP8rvwHaHZ?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 4,
+        "apiName": "LinkedIn API",
+        "Domain": "api.linkedin.com",
+        "endpoints": [
+            "/profile",
+            "/connections",
+            "/messages",
+            "/jobs"
+        ],
+        "queries": [
+            {
+                "name": "View user's profile",
+                "url": "?user=user_id"
+            },
+            {
+                "name": "List user's connections",
+                "url": "?user=user_id&list=connections"
+            },
+            {
+                "name": "Send a message to a connection",
+                "url": "?user=user_id&action=send_message"
+            }
+        ],
+        "url": "https://www.freepnglogos.com/uploads/official-linkedin-logo----17.png"
+    },
+    {
+        "id": 5,
+        "apiName": "Reddit API",
+        "Domain": "api.reddit.com",
+        "endpoints": [
+            "/posts",
+            "/comments",
+            "/subreddits",
+            "/users"
+        ],
+        "queries": [
+            {
+                "name": "Retrieve popular posts",
+                "url": "?type=popular"
+            },
+            {
+                "name": "Explore subreddits",
+                "url": "?action=explore_subreddits"
+            },
+            {
+                "name": "Get user's posts",
+                "url": "?user=user_id&posts=true"
+            }
+        ],
+        "url": "https://i1.wp.com/www.vectorico.com/wp-content/uploads/2018/08/Reddit-logo.png"
+    },
+    {
+        "id": 6,
+        "apiName": "Wikipedia API",
+        "Domain": "en.wikipedia.org",
+        "endpoints": [
+            "/articles",
+            "/categories",
+            "/search",
+            "/random"
+        ],
+        "queries": [
+            {
+                "name": "Search for articles",
+                "url": "?action=search&query=search_query"
+            },
+            {
+                "name": "Explore categories",
+                "url": "?action=explore_categories"
+            },
+            {
+                "name": "Get random article",
+                "url": "?action=random_article"
+            }
+        ],
+        "params": [
+            {
+                "name": "Language",
+                "value": "/it"
+            },
+            {
+                "name": "Language",
+                "value": "/en"
+            },
+            {
+                "name": "Art",
+                "value": "/art"
+            },
+            {
+                "name": "Science",
+                "value": "/science"
+            },
+            {
+                "name": "Technology",
+                "value": "/technology"
+            },
+            {
+                "name": "Nature",
+                "value": "/nature"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.7dc6f0f9f63ba8b9cd247bc9ab7f328e?rik=EpDb%2fdKqSTumDw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 7,
+        "apiName": "YouTube API",
+        "Domain": "api.youtube.com",
+        "endpoints": [
+            "/videos",
+            "/channels",
+            "/playlists",
+            "/comments"
+        ],
+        "queries": [
+            {
+                "name": "Search for videos",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "View channel details",
+                "url": "?channel=channel_id"
+            },
+            {
+                "name": "Browse playlists",
+                "url": "?action=browse_playlists"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.1hX8tUyNC8XTZ8u6BLuGEAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 8,
+        "apiName": "GitHub API",
+        "Domain": "api.github.com",
+        "endpoints": [
+            "/repositories",
+            "/users",
+            "/commits",
+            "/issues"
+        ],
+        "queries": [
+            {
+                "name": "Explore repositories",
+                "url": "?action=explore_repositories"
+            },
+            {
+                "name": "Get user details",
+                "url": "?user=user_id"
+            },
+            {
+                "name": "View recent commits",
+                "url": "?action=recent_commits"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.Vn8Aa5ypdPND2xyceZIAdAHaHS?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 9,
+        "apiName": "Instagram API",
+        "Domain": "api.instagram.com",
+        "endpoints": [
+            "/photos",
+            "/users",
+            "/stories",
+            "/comments"
+        ],
+        "queries": [
+            {
+                "name": "Get user's photos",
+                "url": "?user=user_id&photos=true"
+            },
+            {
+                "name": "Explore trending hashtags",
+                "url": "?action=explore_trending_hashtags"
+            },
+            {
+                "name": "View story highlights",
+                "url": "?user=user_id&action=view_stories"
+            }
+        ],
+        "params": [
+            {
+                "name": "Jamaica Trip",
+                "value": "/jamaica"
+            },
+            {
+                "name": "Thailandia Trip",
+                "value": "/thailandia"
+            },
+            {
+                "name": "Italy Trip",
+                "value": "/italy"
+            },
+            {
+                "name": "Canada Trip",
+                "value": "/canada"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.da43f563081e3e36f73b0f349ce42fc0?rik=VEscn1WcEjx8Vw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 10,
+        "apiName": "Twitter API",
+        "Domain": "api.twitter.com",
+        "endpoints": [
+            "/tweets",
+            "/followers",
+            "/trends",
+            "/notifications"
+        ],
+        "queries": [
+            {
+                "name": "Get user's tweets",
+                "url": "?user=user_id&tweets=true"
+            },
+            {
+                "name": "Explore trending topics",
+                "url": "?action=explore_trending_topics"
+            },
+            {
+                "name": "Send a tweet",
+                "url": "?action=send_tweet"
+            }
+        ],
+        "params": [
+            {
+                "name": "Rpg hashtag",
+                "value": "/rpg"
+            },
+            {
+                "name": "Fps hashtag",
+                "value": "/fps"
+            },
+            {
+                "name": "Sci fi hashtag",
+                "value": "/sci-fi"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.s0CG1t7_kK3hun_JQ4ELwgHaEK?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 11,
+        "apiName": "Spotify API",
+        "Domain": "api.spotify.com",
+        "endpoints": [
+            "/playlists",
+            "/tracks",
+            "/artists",
+            "/albums"
+        ],
+        "queries": [
+            {
+                "name": "Explore playlists",
+                "url": "?action=explore_playlists"
+            },
+            {
+                "name": "Search for tracks",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "Discover new artists",
+                "url": "?action=discover_artists"
+            }
+        ],
+        "params": [
+            {
+                "name": "Max popularity",
+                "value": "/max_popularity"
+            },
+            {
+                "name": "Tracks",
+                "value": "/tracks"
+            },
+            {
+                "name": "Albums",
+                "value": "/albums"
+            },
+            {
+                "name": "Radio",
+                "value": "/radio"
+            }
+        ],
+        "url": "https://companieslogo.com/img/orig/SPOT-c85b9454.png"
+    },
+    {
+        "id": 12,
+        "apiName": "Amazon API",
+        "Domain": "api.amazon.com",
+        "endpoints": [
+            "/products",
+            "/orders",
+            "/reviews",
+            "/recommendations"
+        ],
+        "queries": [
+            {
+                "name": "Search for products",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "View order history",
+                "url": "?action=view_order_history"
+            },
+            {
+                "name": "Get product recommendations",
+                "url": "?action=get_product_recommendations"
+            },
+            {
+                "name": "See kitchen category",
+                "url": "?category=kitchens"
+            },
+            {
+                "name": "See electronic category",
+                "url": "?category=electronic"
+            }
+        ],
+        "params": [
+            {
+                "name": "Prime Only",
+                "value": "/prime_only"
+            },
+            {
+                "name": "On sale",
+                "value": "/on_sale"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.a952e04333ddd31247033cc59ed3ddd7?rik=oUh7X1%2btgpqJQw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 13,
+        "apiName": "Twitch API",
+        "Domain": "api.twitch.com",
+        "endpoints": [
+            "/streams",
+            "/users",
+            "/games",
+            "/clips"
+        ],
+        "queries": [
+            {
+                "name": "Explore live streams",
+                "url": "?action=explore_live_streams"
+            },
+            {
+                "name": "Browse top games",
+                "url": "?action=browse_top_games"
+            },
+            {
+                "name": "Watch popular clips",
+                "url": "?action=watch_popular_clips"
+            }
+        ],
+        "params": [
+            {
+                "name": "Call of Duty",
+                "value": "/call_of_duty"
+            },
+            {
+                "name": "GTA",
+                "value": "/gta"
+            },
+            {
+                "name": "Fortnite",
+                "value": "/fotnite"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.68db0fb7118656ff5b778323ad757399?rik=DRlTzmoOezJaag&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 14,
+        "apiName": "Netflix API",
+        "Domain": "api.netflix.com",
+        "endpoints": [
+            "/movies",
+            "/series",
+            "/genres",
+            "/recommendations"
+        ],
+        "queries": [
+            {
+                "name": "Search for movies",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "Browse TV series",
+                "url": "?action=browse_tv_series"
+            },
+            {
+                "name": "Explore genres",
+                "url": "?action=explore_genres"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.C3izYNj1XbrhSZ7AHvnmLgHaE8?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 15,
+        "apiName": "Facebook API",
+        "Domain": "graph.facebook.com",
+        "endpoints": [
+            "/profile",
+            "/posts",
+            "/friends",
+            "/messages"
+        ],
+        "queries": [
+            {
+                "name": "View user's profile",
+                "url": "?user=user_id"
+            },
+            {
+                "name": "Retrieve user's posts",
+                "url": "?user=user_id&action=retrieve_posts"
+            },
+            {
+                "name": "List user's friends",
+                "url": "?user=user_id&action=list_friends"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.c1554359d9471f39472a588dc66d89ad?rik=qPAnciXJEKiVNQ&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 16,
+        "apiName": "Weather API",
+        "Domain": "api.weather.com",
+        "endpoints": [
+            "/forecast",
+            "/alerts",
+            "/historical",
+            "/current"
+        ],
+        "queries": [
+            {
+                "name": "Get current weather",
+                "url": "?location=latitude,longitude&action=get_current"
+            },
+            {
+                "name": "View weather forecast",
+                "url": "?location=city_name&action=view_forecast"
+            },
+            {
+                "name": "Check weather alerts",
+                "url": "?location=zipcode&action=check_alerts"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.IVrB9KnhNayOu_GPQ6KO_wHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 17,
+        "apiName": "Uber API",
+        "Domain": "api.uber.com",
+        "endpoints": [
+            "/driver",
+            "/payment",
+            "/ride",
+            "/pricing"
+        ],
+        "queries": [
+            {
+                "name": "Request a ride",
+                "url": "?action=request_ride"
+            },
+            {
+                "name": "Track driver",
+                "url": "?action=track_driver"
+            },
+            {
+                "name": "View payment details",
+                "url": "?action=view_payment"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.ec5cc17f72b177446d365a0c4c8b0c3d?rik=HuRiy31Fjivhrg&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 18,
+        "apiName": "NASA API",
+        "Domain": "api.nasa.gov",
+        "endpoints": [
+            "/mars-photos",
+            "/asteroids",
+            "/earth-imagery",
+            "/space-events"
+        ],
+        "queries": [
+            {
+                "name": "Retrieve Mars photos",
+                "url": "?rover=rover_name&action=retrieve_photos"
+            },
+            {
+                "name": "Explore near-earth asteroids",
+                "url": "?action=explore_asteroids"
+            },
+            {
+                "name": "View latest earth imagery",
+                "url": "?action=view_earth_imagery"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.4a8de082c469dca2b8290cdf1eababd7?rik=yBx2%2bFV7EE7sKw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 19,
+        "apiName": "Microsoft API",
+        "Domain": "api.microsoft.com",
+        "endpoints": [
+            "/products",
+            "/users",
+            "/licenses",
+            "/support"
+        ],
+        "queries": [
+            {
+                "name": "Search for products",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "View user details",
+                "url": "?user=user_id"
+            },
+            {
+                "name": "Manage licenses",
+                "url": "?action=manage_licenses"
+            }
+        ],
+        "params": [
+            {
+                "name": "Platform",
+                "value": "/platform"
+            },
+            {
+                "name": "Trial",
+                "value": "/trial"
+            },
+            {
+                "name": "Version",
+                "value": "/version"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.2ddcOTqkLqfCeaLwllUy9gAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 20,
+        "apiName": "E-commerce API",
+        "Domain": "api.ecommerce.com",
+        "endpoints": [
+            "/products",
+            "/orders",
+            "/customers",
+            "/reviews",
+            "/shopping_cart"
+        ],
+        "queries": [
+            {
+                "name": "Search for products",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "View order details",
+                "url": "?order=order_id&action=view_details"
+            },
+            {
+                "name": "Browse customer reviews",
+                "url": "?action=browse_reviews"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.60d1fe77d71d6f021f8741772c4f3bb0?rik=menRvEdkxl2FyA&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 21,
+        "apiName": "OpenAI API",
+        "Domain": "api.openai.com",
+        "endpoints": [
+            "/gpt",
+            "/davinci",
+            "/codex",
+            "/translate"
+        ],
+        "queries": [
+            {
+                "name": "Generate text",
+                "url": "?action=generate_text"
+            },
+            {
+                "name": "Access Davinci model",
+                "url": "?model=davinci"
+            },
+            {
+                "name": "Translate text",
+                "url": "?action=translate_text"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.BEA-UfSIs4wbc42Be7gajQAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 22,
+        "apiName": "Stripe API",
+        "Domain": "api.stripe.com",
+        "endpoints": [
+            "/payments",
+            "/invoices",
+            "/subscriptions",
+            "/customers"
+        ],
+        "queries": [
+            {
+                "name": "Process payment",
+                "url": "?action=process_payment"
+            },
+            {
+                "name": "Manage invoices",
+                "url": "?action=manage_invoices"
+            },
+            {
+                "name": "View subscription details",
+                "url": "?subscription=subscription_id&action=view_details"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.ac8d1c6c92f3578815e6786f3e1c9ffa?rik=ToYAE6S1LiQwDQ&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 23,
+        "apiName": "Discord API",
+        "Domain": "api.discord.com",
+        "endpoints": [
+            "/channels",
+            "/users",
+            "/guilds",
+            "/messages"
+        ],
+        "queries": [
+            {
+                "name": "Manage channels",
+                "url": "?action=manage_channels"
+            },
+            {
+                "name": "View user details",
+                "url": "?user=user_id&action=view_details"
+            },
+            {
+                "name": "Browse guilds",
+                "url": "?action=browse_guilds"
+            }
+        ],
+        "url": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/60/e0/77/60e07773-54a8-4e6f-5aee-1f038313690f/source/1000x1000bb.jpg"
+    },
+    {
+        "id": 24,
+        "apiName": "Google Translate API",
+        "Domain": "translate.google.com",
+        "endpoints": [
+            "/translate",
+            "/languages",
+            "/pronunciation",
+            "/definitions"
+        ],
+        "queries": [
+            {
+                "name": "Translate text",
+                "url": "?action=translate_text"
+            },
+            {
+                "name": "List supported languages",
+                "url": "?action=list_languages"
+            },
+            {
+                "name": "Get pronunciation",
+                "url": "?word=word&action=get_pronunciation"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.QdLOjoqXiyQkisRK8jIvZQAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 25,
+        "apiName": "Etsy API",
+        "Domain": "api.etsy.com",
+        "endpoints": [
+            "/listings",
+            "/shops",
+            "/users",
+            "/favorites"
+        ],
+        "queries": [
+            {
+                "name": "Search listings",
+                "url": "?query=search_query"
+            },
+            {
+                "name": "View shop details",
+                "url": "?shop=shop_id&action=view_details"
+            },
+            {
+                "name": "Retrieve user favorites",
+                "url": "?user=user_id&action=retrieve_favorites"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.c8ee92550982f32cc095f714ec77177b?rik=XBcPDFO58gBQMA&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fetsy-logo-transparent%2fetsy-logo-transparent-14.png&ehk=yQ7nFzDiBBsj1%2bZX1Lg8NOsPJ89UGt3XIGHn4gv6d9s%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 26,
+        "apiName": "Wolfram Alpha API",
+        "Domain": "api.wolframalpha.com",
+        "endpoints": [
+            "/query",
+            "/results",
+            "/interpretation",
+            "/comparison"
+        ],
+        "queries": [
+            {
+                "name": "Submit query",
+                "url": "?action=submit_query"
+            },
+            {
+                "name": "Retrieve results",
+                "url": "?action=retrieve_results"
+            },
+            {
+                "name": "Interpret query",
+                "url": "?action=interpret_query"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.e74d41a5abe09405a342c0324b29d3cd?rik=JcjfhsL%2bl3DXyg&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 27,
+        "apiName": "Twilio API",
+        "Domain": "api.twilio.com",
+        "endpoints": [
+            "/messages",
+            "/calls",
+            "/conferences",
+            "/verify"
+        ],
+        "queries": [
+            {
+                "name": "Send SMS",
+                "url": "?action=send_sms"
+            },
+            {
+                "name": "Make a call",
+                "url": "?action=make_call"
+            },
+            {
+                "name": "Initiate conference call",
+                "url": "?action=initiate_conference"
+            }
+        ],
+        "params": [
+            {
+                "name": "Sender",
+                "value": "/sender"
+            },
+            {
+                "name": "Status",
+                "value": "/status"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/OIP.Ch7_AoQRZlo78NW5wqagJgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": 28,
+        "apiName": "Riot Games API",
+        "Domain": "api.riotgames.com",
+        "endpoints": [
+            "/games",
+            "/summoner",
+            "/champion",
+            "/leaderboards"
+        ],
+        "queries": [
+            {
+                "name": "Retrieve game data",
+                "url": "?action=retrieve_game_data"
+            },
+            {
+                "name": "Get summoner details",
+                "url": "?summoner=summoner_name&action=get_details"
+            },
+            {
+                "name": "Explore champions",
+                "url": "?action=explore_champions"
+            }
+        ],
+        "params": [
+            {
+                "name": "Player ID",
+                "value": "/168632"
+            },
+            {
+                "name": "Player ID",
+                "value": "/080893"
+            },
+            {
+                "name": "Player ID",
+                "value": "/987700"
+            },
+            {
+                "name": "Player ID",
+                "value": "/321657"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.5047589bc37314b7817a404b6eace7d4?rik=fwK27CcRilOAgw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 29,
+        "apiName": "Trello API",
+        "Domain": "api.trello.com",
+        "endpoints": [
+            "/boards",
+            "/cards",
+            "/lists",
+            "/members"
+        ],
+        "queries": [
+            {
+                "name": "Manage boards",
+                "url": "?action=manage_boards"
+            },
+            {
+                "name": "Manipulate cards",
+                "url": "?action=manipulate_cards"
+            },
+            {
+                "name": "View lists",
+                "url": "?action=view_lists"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.9dbe7c4a3b68859bf9c607e29a5998ad?rik=dhq3SL5JKey%2flA&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 30,
+        "apiName": "WhatsApp API",
+        "Domain": "api.whatsapp.com",
+        "endpoints": [
+            "/messages",
+            "/calls",
+            "/groups",
+            "/contacts"
+        ],
+        "queries": [
+            {
+                "name": "Send a message",
+                "url": "?action=send_message"
+            },
+            {
+                "name": "Make a call",
+                "url": "?action=make_call"
+            },
+            {
+                "name": "Manage groups",
+                "url": "?action=manage_groups"
+            }
+        ],
+        "params": [
+            {
+                "name": "Media",
+                "value": "/media"
+            },
+            {
+                "name": "Group ID",
+                "value": "/11"
+            },
+            {
+                "name": "Group ID",
+                "value": "/54"
+            },
+            {
+                "name": "Group ID",
+                "value": "/32"
+            },
+            {
+                "name": "Group ID",
+                "value": "/79"
+            },
+            {
+                "name": "Group ID",
+                "value": "/20"
+            },
+            {
+                "name": "Group ID",
+                "value": "/48"
+            }
+        ],
+        "url": "https://th.bing.com/th/id/R.a26b9e20d6caa1bedbe7ba2ec76a1346?rik=PhuyjJtlj4FaCQ&pid=ImgRaw&r=0"
+    }
+]

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Chakra+Petch&family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+
+* {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.api-button {
+    padding: 2px;
+    background-color: #4cb262c0;
+}
+
+.custom-table {
+    width: 50%;
+}

@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "requestName": "I would like to find local street directions and updates to go to work",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "maps.google.com",
+                "body": "/streets/updates",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "requestName": "I need to access my detailed credit card informations",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "mybank.com",
+                "body": "/credit_cards",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "requestName": "Let's see the latest iPhone accessories",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "www.apple.com",
+                "body": "/accessories",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "requestName": "I wanto to tweet thoughts and updates with friends",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.twitter.com",
+                "body": "/tweets",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "requestName": "I need to view my personal profile informations and preferences on the most famous Social Network",
+        "method": "PUT",
+        "req": [
+            {
+                "domain": "api.facebook.com",
+                "body": "/profile",
+                "query": "?user=user_id",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "requestName": "Let's join discussions on various topics and share interesting links on Reddit",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.reddit.com",
+                "body": "/posts",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "requestName": "That product is what I needed. Let's add it on the shopping cart ",
+        "method": "PATCH",
+        "req": [
+            {
+                "domain": "api.ecommerce.com",
+                "body": "/shopping_cart",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "requestName": "Ok.. I am Managing commits of this repo",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.github.com",
+                "body": "/commits",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "requestName": "I need to review one of the last stories of my trip in Jamaica",
+        "method": "PUT",
+        "req": [
+            {
+                "domain": "api.instagram.com",
+                "body": "/stories",
+                "query": "?user=user_id&action=view_stories",
+                "params": "/jamaica"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "requestName": "Oh i got a notification on Twitter",
+        "method": "PATCH",
+        "req": [
+            {
+                "domain": "api.twitter.com",
+                "body": "/notifications",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "requestName": "What was the name of that playlist Adam told me about...",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "api.spotify.com",
+                "body": "/playlists",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "requestName": "I forgot to check my last Amazon order...",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.amazon.com",
+                "body": "/orders",
+                "query": "?action=view_order_history",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "requestName": "Someone told me to take a look of the last popular clip of Fortnite",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "api.twitch.com",
+                "body": "/clips",
+                "query": "?action=watch_popular_clips",
+                "params": "/fortnite"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "requestName": "Is there some new series to watch?",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.netflix.com",
+                "body": "/series",
+                "query": "?action=browse_tv_series",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "requestName": "I want to go to my profile on Facebook and see the list of friends",
+        "method": "PATCH",
+        "req": [
+            {
+                "domain": "graph.facebook.com",
+                "body": "/profile/friends",
+                "query": "?user=user_id&action=list_friends",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "requestName": "How's the weather today in my zone?",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "api.weather.com",
+                "body": "/current",
+                "query": "?location=latitude,longitude&action=get_current",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "requestName": "Tomorrow i will need a ride from Uber. Better check now.",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "api.uber.com",
+                "body": "/ride",
+                "query": "?action=request_ride",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "requestName": "I need to see my account balance",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "mybank.com",
+                "body": "/balance",
+                "query": "?action=get_balance",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "requestName": "I need to make a transition",
+        "method": "POST",
+        "req": [
+            {
+                "domain": "mybank.com",
+                "body": "/payments",
+                "query": "?action=make_payment",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "requestName": "I would like to check my transaction history",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "mybank.com",
+                "body": "/account/transaction_history",
+                "query": "not",
+                "params": "not"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "requestName": "Kitchen products on sale on Amazon? let's see",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "api.amazon.com",
+                "body": "/products",
+                "query": "?category=kitchen",
+                "params": "/on_sale"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "requestName": "I'll comment this photo with an heart",
+        "method": "GET",
+        "req": [
+            {
+                "domain": "api.instagram.com",
+                "body": "/comments",
+                "query": "",
+                "params": ""
+            }
+        ]
+    }
+]
